@@ -41,7 +41,7 @@ public class Player {
     }
 
     public String getMessage() {
-        StringBuilder message = new StringBuilder("rumors for " + name + "\n");
+        StringBuilder message = new StringBuilder("Rumors for " + name + ":\n");
         for(String rumor: receivedRumors){
             message.append(rumor).append("\n");
         }
